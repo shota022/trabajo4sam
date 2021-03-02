@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>trabajo numero 4</title>
+	<link rel="stylesheet" type="text/css" href="esti.css">
+</head>
+ <div class="cuadro" id="cuadro"></div>
+
+<body onkeypress="teclas()">
+
+	<h1 class="h1">oprima las letras E, R, T para cambiar los estilos</h1>
+
+	<input type="button" name="boton" value="compilar" class="boton" onclick="compilar();">	
+	<input type="text" name="compilar" id="compilar" class="compilar">
+	<input type="text" name="texto" id="texto" class="texto">
+
+	<script >
+
+		function teclas(){
+
+	if(event.code=="KeyE")
+	{
+
+			var cuadro=document.getElementById("cuadro");
+cuadro.className="estilo1 ";
+
+	}
+	else
+			if(event.code=="KeyR")
+	{
+
+			var cuadro=document.getElementById("cuadro");
+cuadro.className="estilo2";
+
+	}
+	else
+					if(event.code=="KeyT")
+	{
+
+			var cuadro=document.getElementById("cuadro");
+cuadro.className="estilo3";
+
+	}
+
+		}
+	function compilar(){
+			var texto1=document.getElementById("texto").value;
+		document.getElementById("compilar").value=texto1;
+	}
+
+				</script>
+
+
+
+
+</body>
+</html>

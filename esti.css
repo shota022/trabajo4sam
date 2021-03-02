@@ -1,0 +1,87 @@
+body{
+background: url(fondo.jpg) no-repeat center center fixed;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+
+.cuadro{
+    position: absolute;
+	width: 40%;
+	height: 40%;
+	top: 12%;
+	left: 30%;
+    background-color: lightgreen;
+  border: white 5px solid;
+}
+
+.boton{
+		position: absolute;
+	left: 45%;
+	height: 10%;
+	width: 13%;
+	top: 75%;
+	 border: black 5px solid;
+	text-align:center;
+}
+.texto{
+	position: absolute;
+	left: 36%;
+	top: 65%;
+	width: 29%;
+	 border: purple 5px solid;
+	text-align:center;
+}
+
+.compilar{
+	position: absolute;
+	left: 35%;
+	top: 32%;
+	width: 29%;
+	background-color: lightgreen;
+	  border: white 5px none;
+	  text-align:center;
+	font-size: 24px;
+	}
+
+	.estilo1{
+		
+	position: absolute;
+	width: 40%;
+	height: 40%;
+	top: 12%;
+	left: 30%;
+background-color: yellow;
+  border: pink 5px solid;
+}
+.estilo2{
+		
+	position: absolute;
+	width: 40%;
+	height: 40%;
+	top: 12%;
+	left: 30%;
+	background-color: blue;
+  border: green 5px solid;
+}
+.estilo3{
+		
+	position: absolute;
+	width: 40%;
+	height: 40%;
+	top: 12%;
+	left: 30%;
+background-color: orange;
+  border: grey 5px solid;
+}
+
+.h1{
+	position: absolute;
+	width: 26%;
+	height: 18%;
+	top:5%;
+	left: 1%;
+background: lightgray;
+  border: white 5px solid;
+}
